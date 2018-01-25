@@ -1,0 +1,492 @@
+{"create": {"_type": "my_log_line", "_id": 1, "_index": "my_web_log"}}
+{"status": "200", "request": "GET / HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:23:19 +0100", "size": "3525", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 2, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /icons/ubuntu-logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:23:20 +0100", "size": "3623", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 3, "_index": "my_web_log"}}
+{"status": "404", "request": "GET /favicon.ico HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:23:20 +0100", "size": "503", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 4, "_index": "my_web_log"}}
+{"status": "200", "request": "GET / HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:35:19 +0100", "size": "3525", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 5, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /icons/ubuntu-logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:35:19 +0100", "size": "3623", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 6, "_index": "my_web_log"}}
+{"status": "301", "request": "GET /dvwa HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:38:37 +0100", "size": "573", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 7, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/ HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:38:37 +0100", "size": "558", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 8, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/ HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:42:09 +0100", "size": "475", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 9, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/login.php HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:42:09 +0100", "size": "363", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 10, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/setup.php HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:42:09 +0100", "size": "1884", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 11, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:42:09 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 12, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:42:09 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 13, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:42:09 +0100", "size": "5330", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 14, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/spanner.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:42:09 +0100", "size": "748", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 15, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:42:09 +0100", "size": "1706", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 16, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/setup.php HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:51:22 +0100", "size": "1854", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 17, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:51:22 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 18, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:51:22 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 19, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/spanner.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:51:22 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 20, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:19:51:22 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 21, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/setup.php HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:31:27 +0100", "size": "1890", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 22, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:31:27 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 23, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:31:27 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 24, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/spanner.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:31:27 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 25, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:31:27 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 26, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/setup.php HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:32:51 +0100", "size": "1885", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 27, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:32:51 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 28, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:32:51 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 29, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/spanner.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:32:51 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 30, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:32:51 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 31, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/setup.php HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:25 +0100", "size": "1882", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 32, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:25 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 33, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:25 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 34, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/spanner.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:25 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 35, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:25 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 36, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/setup.php HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:41 +0100", "size": "1885", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 37, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:41 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 38, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:41 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 39, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/spanner.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:41 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 40, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:41 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 41, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/setup.php HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:45 +0100", "size": "1883", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 42, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:45 +0100", "size": "762", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 43, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:45 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 44, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/spanner.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:45 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 45, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:37:45 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 46, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/setup.php HTTP/1.1", "host": "192.168.0.46", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:24 +0100", "size": "1887", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 47, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:24 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 48, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:24 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 49, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/spanner.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:24 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 50, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:24 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 51, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/setup.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:29 +0100", "size": "370", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 52, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/setup.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:29 +0100", "size": "2030", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 53, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/login.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/setup.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:34 +0100", "size": "1049", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 54, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/login.css HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:34 +0100", "size": "741", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 55, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/login_logo.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:34 +0100", "size": "9374", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 56, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/login.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:39 +0100", "size": "363", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 57, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/index.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:20:39:39 +0100", "size": "3084", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 58, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:25:40 +0100", "size": "370", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 59, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:25:40 +0100", "size": "370", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 60, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/login.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:25:40 +0100", "size": "1049", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 61, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/login.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:25:45 +0100", "size": "364", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 62, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/index.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:25:45 +0100", "size": "3084", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 63, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:25:48 +0100", "size": "1810", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 64, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:25:48 +0100", "size": "1815", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 65, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:26:03 +0100", "size": "1846", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 66, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:26:17 +0100", "size": "2499", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 67, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/lock.png HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:26:17 +0100", "size": "1045", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 68, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/security.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:26:21 +0100", "size": "456", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 69, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:26:21 +0100", "size": "2512", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 70, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/security.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:26:22 +0100", "size": "456", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 71, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:26:22 +0100", "size": "2515", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 72, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:26:24 +0100", "size": "1753", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 73, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:26:33 +0100", "size": "1952", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 74, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:26:53 +0100", "size": "2019", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 75, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:27:48 +0100", "size": "2004", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 76, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.46", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "15/Nov/2017:21:28:12 +0100", "size": "1956", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 77, "_index": "my_web_log"}}
+{"status": "200", "request": "GET / HTTP/1.1", "host": "192.168.0.23", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:49 +0100", "size": "3525", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 78, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /icons/ubuntu-logo.png HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:49 +0100", "size": "3623", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 79, "_index": "my_web_log"}}
+{"status": "404", "request": "GET /favicon.ico HTTP/1.1", "host": "192.168.0.23", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:49 +0100", "size": "503", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 80, "_index": "my_web_log"}}
+{"status": "404", "request": "GET /favicon.ico HTTP/1.1", "host": "192.168.0.23", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:49 +0100", "size": "503", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 81, "_index": "my_web_log"}}
+{"status": "301", "request": "GET /dvwa HTTP/1.1", "host": "192.168.0.23", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:53 +0100", "size": "572", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 82, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/ HTTP/1.1", "host": "192.168.0.23", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:53 +0100", "size": "505", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 83, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/login.php HTTP/1.1", "host": "192.168.0.23", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:53 +0100", "size": "1049", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 84, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/login.css HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:53 +0100", "size": "741", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 85, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/login_logo.png HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:53 +0100", "size": "9374", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 86, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/login.php HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:59 +0100", "size": "364", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 87, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/index.php HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:59 +0100", "size": "3081", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 88, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:59 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 89, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:59 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 90, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:59 +0100", "size": "5330", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 91, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.0.23", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:58:59 +0100", "size": "1706", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 92, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:59:08 +0100", "size": "2499", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 93, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:59:08 +0100", "size": "2497", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 94, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/lock.png HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:59:08 +0100", "size": "1045", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 95, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:21:59:10 +0100", "size": "1753", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 96, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:22:02:20 +0100", "size": "1941", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 97, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:22:05:43 +0100", "size": "1787", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 98, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:22:06:04 +0100", "size": "2500", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 99, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:22:05:43 +0100", "size": "1787", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 100, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:22:06:04 +0100", "size": "2499", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 101, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:22:06:15 +0100", "size": "1786", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 102, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:22:06:15 +0100", "size": "1786", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 103, "_index": "my_web_log"}}
+{"status": "200", "request": "OPTIONS * HTTP/1.0", "host": "::1", "referer": "-", "user_agent": "Apache/2.4.18 (Ubuntu) (internal dummy connection)", "time": "15/Nov/2017:22:06:21 +0100", "size": "126", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 104, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:22:06:27 +0100", "size": "1819", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 105, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:22:06:35 +0100", "size": "1754", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 106, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.0.23", "referer": "http://192.168.0.10/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "15/Nov/2017:22:06:35 +0100", "size": "1753", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 107, "_index": "my_web_log"}}
+{"status": "301", "request": "GET /dvwa HTTP/1.1", "host": "192.168.56.102", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:13:41 +0100", "size": "579", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 108, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/ HTTP/1.1", "host": "192.168.56.102", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:13:41 +0100", "size": "505", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 109, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/login.php HTTP/1.1", "host": "192.168.56.102", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:13:41 +0100", "size": "1049", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 110, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/login.css HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:13:41 +0100", "size": "741", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 111, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/login_logo.png HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:13:41 +0100", "size": "9374", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 112, "_index": "my_web_log"}}
+{"status": "404", "request": "GET /favicon.ico HTTP/1.1", "host": "192.168.56.102", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:13:42 +0100", "size": "505", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 113, "_index": "my_web_log"}}
+{"status": "301", "request": "GET /dvwa HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:15:01 +0100", "size": "579", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 114, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/ HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:15:01 +0100", "size": "505", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 115, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/login.php HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:15:01 +0100", "size": "1049", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 116, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/login.css HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:15:01 +0100", "size": "741", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 117, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/login_logo.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:15:01 +0100", "size": "9374", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 118, "_index": "my_web_log"}}
+{"status": "404", "request": "GET /favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:15:02 +0100", "size": "505", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 119, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/login.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:25 +0100", "size": "364", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 120, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/index.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:25 +0100", "size": "3081", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 121, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:25 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 122, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:25 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 123, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:25 +0100", "size": "5330", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 124, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:25 +0100", "size": "1706", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 125, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:30 +0100", "size": "2500", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 126, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:30 +0100", "size": "2498", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 127, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/lock.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:31 +0100", "size": "1045", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 128, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:41 +0100", "size": "1754", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 129, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:41 +0100", "size": "1754", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 130, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:16:58 +0100", "size": "1957", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 131, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:17:42 +0100", "size": "1958", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 132, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:18:13 +0100", "size": "1961", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 133, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/login.php HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:21:44 +0100", "size": "364", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 134, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/index.php HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:21:44 +0100", "size": "3081", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 135, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:21:44 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 136, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:21:44 +0100", "size": "762", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 137, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:21:44 +0100", "size": "5330", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 138, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.56.102", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:21:44 +0100", "size": "1706", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 139, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:21:47 +0100", "size": "1753", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 140, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:21:47 +0100", "size": "1753", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 141, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/ HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:35:53 +0100", "size": "3058", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 142, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:35:55 +0100", "size": "1786", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 143, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:35:55 +0100", "size": "1787", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 144, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:36:48 +0100", "size": "1824", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 145, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:57:29 +0100", "size": "1824", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 146, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:14:57:36 +0100", "size": "1824", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 147, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:14:23:26 +0100", "size": "1953", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 148, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/ HTTP/1.1", "host": "192.168.56.102", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:26:31 +0100", "size": "3058", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 149, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/captcha/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:26:59 +0100", "size": "1952", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 150, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/captcha/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:27:00 +0100", "size": "1786", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 151, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/captcha/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:27:00 +0100", "size": "1786", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 152, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:27:12 +0100", "size": "1787", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 153, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:27:15 +0100", "size": "2496", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 154, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:27:15 +0100", "size": "2497", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 155, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/lock.png HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:27:15 +0100", "size": "1045", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 156, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:27:21 +0100", "size": "1787", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 157, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:27:21 +0100", "size": "1786", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 158, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:27:31 +0100", "size": "1820", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 159, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/hackable/uploads/39772.zip HTTP/1.1", "host": "192.168.56.102", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:28:03 +0100", "size": "7318", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 160, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:53:30 +0100", "size": "1754", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 161, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:53:30 +0100", "size": "1753", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 162, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:53:54 +0100", "size": "1760", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 163, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:54:05 +0100", "size": "1760", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 164, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:55:14 +0100", "size": "1760", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 165, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/ HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:17:11:20 +0100", "size": "506", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 166, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/login.php HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:17:11:20 +0100", "size": "1192", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 167, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/login.css HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:17:11:20 +0100", "size": "741", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 168, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/login_logo.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:17:11:20 +0100", "size": "9374", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 169, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.102", "referer": "http://192.168.56.101/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:15:55:59 +0100", "size": "1950", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 170, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:17:29:09 +0100", "size": "370", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 171, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:17:29:09 +0100", "size": "370", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 172, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/login.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:17:29:09 +0100", "size": "1048", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 173, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/login.css HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:17:29:09 +0100", "size": "741", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 174, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/login_logo.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:17:29:09 +0100", "size": "9374", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 175, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/login.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:18:03:11 +0100", "size": "364", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 176, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/index.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:18:03:11 +0100", "size": "3081", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 177, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:18:03:17 +0100", "size": "1787", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 178, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:18:03:17 +0100", "size": "1787", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 179, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:18:03:32 +0100", "size": "1804", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 180, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:18:03:36 +0100", "size": "2499", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 181, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/vulnerabilities/upload/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:18:03:36 +0100", "size": "2497", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 182, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/lock.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:18:03:36 +0100", "size": "1045", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 183, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:18:03:41 +0100", "size": "1786", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 184, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/upload/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.101/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:57.0) Gecko/20100101 Firefox/57.0", "time": "16/Nov/2017:18:03:41 +0100", "size": "1787", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 185, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/ HTTP/1.1", "host": "192.168.56.101", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:15:38 +0100", "size": "506", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 186, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/login.php HTTP/1.1", "host": "192.168.56.101", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:15:44 +0100", "size": "1049", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 187, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/login.css HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:15:50 +0100", "size": "742", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 188, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/login_logo.png HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:15:50 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 189, "_index": "my_web_log"}}
+{"status": "404", "request": "GET /favicon.ico HTTP/1.1", "host": "192.168.56.101", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:15:50 +0100", "size": "505", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 190, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/login.php HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:00 +0100", "size": "364", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 191, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/index.php HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/login.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:00 +0100", "size": "3081", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 192, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:00 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 193, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:00 +0100", "size": "762", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 194, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:00 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 195, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.56.101", "referer": "-", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:00 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 196, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:46 +0100", "size": "2500", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 197, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/index.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:46 +0100", "size": "2498", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 198, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:46 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 199, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:46 +0100", "size": "762", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 200, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/lock.png HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:46 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 201, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:16:46 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 202, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:17:19 +0100", "size": "1754", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 203, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:17:19 +0100", "size": "1753", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 204, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:17:19 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 205, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:17:19 +0100", "size": "762", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 206, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:17:19 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 207, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:17:43 +0100", "size": "1956", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 208, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:17:46 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 209, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:17:46 +0100", "size": "762", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 210, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.101", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0", "time": "16/Nov/2017:18:17:46 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 211, "_index": "my_web_log"}}
+{"status": "301", "request": "GET /dvwa HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:43:58 +0100", "size": "579", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 212, "_index": "my_web_log"}}
+{"status": "302", "request": "GET /dvwa/ HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:43:58 +0100", "size": "505", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 213, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/login.php HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:43:58 +0100", "size": "1049", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 214, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/login.css HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:43:58 +0100", "size": "741", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 215, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/login_logo.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:43:58 +0100", "size": "9374", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 216, "_index": "my_web_log"}}
+{"status": "404", "request": "GET /favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:43:59 +0100", "size": "505", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 217, "_index": "my_web_log"}}
+{"status": "404", "request": "GET /favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:43:59 +0100", "size": "505", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 218, "_index": "my_web_log"}}
+{"status": "302", "request": "POST /dvwa/login.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:45 +0100", "size": "364", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 219, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/index.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/login.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:45 +0100", "size": "3081", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 220, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:46 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 221, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:46 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 222, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:46 +0100", "size": "5330", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 223, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:46 +0100", "size": "1706", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 224, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:46 +0100", "size": "1706", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 225, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/index.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:49 +0100", "size": "1753", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 226, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:49 +0100", "size": "762", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 227, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:49 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 228, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:49 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 229, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:52:49 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 230, "_index": "my_web_log"}}
+{"status": "200", "request": "POST /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:19 +0100", "size": "1955", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 231, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:22 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 232, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:22 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 233, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:22 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 234, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:22 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 235, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/security.php HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:38 +0100", "size": "2496", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 236, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:38 +0100", "size": "763", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 237, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:38 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 238, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/images/lock.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:38 +0100", "size": "1045", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 239, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:38 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 240, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:38 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 241, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/vulnerabilities/exec/ HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/security.php", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:40 +0100", "size": "1753", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 242, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:40 +0100", "size": "762", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 243, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/dvwa/css/main.css HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:40 +0100", "size": "1445", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 244, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/dvwa/images/logo.png HTTP/1.1", "host": "192.168.56.1", "referer": "http://192.168.56.102/dvwa/vulnerabilities/exec/", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:40 +0100", "size": "181", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 245, "_index": "my_web_log"}}
+{"status": "304", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:20:54:40 +0100", "size": "180", "identity": "-", "user": "-"}
+{"create": {"_type": "my_log_line", "_id": 246, "_index": "my_web_log"}}
+{"status": "200", "request": "GET /dvwa/favicon.ico HTTP/1.1", "host": "192.168.56.1", "referer": "-", "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:58.0) Gecko/20100101 Firefox/58.0", "time": "16/Nov/2017:22:39:55 +0100", "size": "1707", "identity": "-", "user": "-"}
