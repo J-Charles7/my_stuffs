@@ -70,7 +70,7 @@ sudo apt-get update && sudo apt-get install kibana
 ```
 #### 2.3. 
 ```shell
-sudo grep elasticsearch /etc/passwd
+sudo grep kibana /etc/passwd
 ```
 You should have this output (with different GID/UID):
 ```shell
