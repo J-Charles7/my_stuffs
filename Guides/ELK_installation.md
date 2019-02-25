@@ -62,14 +62,10 @@ You should have this output:
 
 #### 1.9. Other details
 Configuration files:
-* Global : 
-``` 
-/etc/default/kibana
-```
-* More comprehensive : 
-``` 
-/etc/kibana/kibana.yml
-```
+* Global : `/etc/default/kibana`
+* More comprehensive : `/etc/kibana/kibana.yml`
+
+TCP defautl port: `9200`
 
 ## 2. Kibana
 #### 2.1. Prerequisites
@@ -97,4 +93,9 @@ sudo service kibana start
 ```shell
 sudo service kibana status
 ```
-```
+#### 2.6. Other details
+Configuration files:
+* Global : `/etc/default/kibana`
+* More comprehensive : `/etc/kibana/kibana.yml`
+
+TCP defautl port: `5601`
