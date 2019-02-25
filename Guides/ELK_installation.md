@@ -62,8 +62,16 @@ You should have this output:
 
 #### 1.9. Other details
 * Configuration files:
-** Global : ```path /etc/default/kibana```
-** More comprehensive : ```path /etc/kibana/kibana.yml```
+
+** Global : 
+```path 
+/etc/default/kibana
+```
+
+** More comprehensive : 
+```
+path /etc/kibana/kibana.yml
+```
 
 ## 2. Kibana
 #### 2.1. Prerequisites
