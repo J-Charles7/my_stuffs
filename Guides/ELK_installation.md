@@ -61,15 +61,13 @@ You should have this output:
 ```
 
 #### 1.9. Other details
-* Configuration files:
-
-** Global : 
-```shell 
+Configuration files:
+* Global : 
+``` 
 /etc/default/kibana
 ```
-
-** More comprehensive : 
-```path 
+* More comprehensive : 
+``` 
 /etc/kibana/kibana.yml
 ```
 
