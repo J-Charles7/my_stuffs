@@ -61,4 +61,29 @@ You should have this output:
 ```
 
 ## 2. Kibana
+#### 2.1. Prerequisites
 You can follow steps [1.1](https://github.com/J-Charles7/my_stuffs/blob/master/Guides/ELK_installation.md#11-download-and-install-the-public-signing-key) to [1.3](https://github.com/J-Charles7/my_stuffs/blob/master/Guides/ELK_installation.md#13-save-the-repository-definition-to-etcaptsourceslistdelastic-6xlist)
+
+#### 2.2. Installing 
+```shell
+sudo apt-get update && sudo apt-get install kibana
+```
+#### 2.3. 
+```shell
+sudo grep elasticsearch /etc/passwd
+```
+You should have this output (with different GID/UID):
+```shell
+kibana:x:123:130::/home/kibana:/bin/false
+```
+
+#### 2.4. Start `kibana` service:
+```shell
+sudo service kibana start
+```
+
+#### 2.5. Check the status of the service and make sure it is `active`:
+```shell
+sudo service kibana status
+```
+```
