@@ -60,6 +60,11 @@ You should have this output:
 }
 ```
 
+#### 1.9. Other details
+* Configuration files:
+** Global : ```path /etc/default/kibana```
+** More comprehensive : ```path /etc/kibana/kibana.yml```
+
 ## 2. Kibana
 #### 2.1. Prerequisites
 You can follow steps [1.1](https://github.com/J-Charles7/my_stuffs/blob/master/Guides/ELK_installation.md#11-download-and-install-the-public-signing-key) to [1.3](https://github.com/J-Charles7/my_stuffs/blob/master/Guides/ELK_installation.md#13-save-the-repository-definition-to-etcaptsourceslistdelastic-6xlist)
