@@ -64,13 +64,13 @@ You should have this output:
 * Configuration files:
 
 ** Global : 
-```path 
+```shell 
 /etc/default/kibana
 ```
 
 ** More comprehensive : 
-```
-path /etc/kibana/kibana.yml
+```path 
+/etc/kibana/kibana.yml
 ```
 
 ## 2. Kibana
