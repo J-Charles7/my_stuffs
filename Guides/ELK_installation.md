@@ -61,4 +61,4 @@ You should have this output:
 ```
 
 ## 2. Kibana
-You can follow steps 
+You can follow steps [1.1](https://github.com/J-Charles7/my_stuffs/blob/master/Guides/ELK_installation.md#11-download-and-install-the-public-signing-key) to [1.3](https://github.com/J-Charles7/my_stuffs/blob/master/Guides/ELK_installation.md#13-save-the-repository-definition-to-etcaptsourceslistdelastic-6xlist)
