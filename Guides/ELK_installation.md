@@ -62,8 +62,8 @@ You should have this output:
 
 #### 1.9. Other details
 Configuration files:
-* Global : `/etc/default/kibana`
-* More comprehensive : `/etc/kibana/kibana.yml`
+* Global : `/etc/default/elasticsearch`
+* More comprehensive : `/etc/elasticsearch/elasticsearch.yml`
 
 TCP defautl port: `9200`
 
