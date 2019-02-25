@@ -1,24 +1,24 @@
 # How to install ELK Stack on a Debian distrib?
 ## Elasticsearch
 
-### Download and install the public signing key:
+#### Download and install the public signing key:
 ```shell
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 ```
-### As ELK packages are signed, you need to install `apt-transport-https` so as to support this feature:
+#### As ELK packages are signed, you need to install `apt-transport-https` so as to support this feature:
 ```shell
 sudo apt-get install apt-transport-https
 ```
-### Save the repository definition to /etc/apt/sources.list.d/elastic-6.x.list:
+#### Save the repository definition to /etc/apt/sources.list.d/elastic-6.x.list:
 ```shell
 echo "deb https://artifacts.elastic.co/packages/6.x/apt stable main" | sudo tee -a /etc/apt/sources.list.d/elastic-6.x.list
 ```
-### Install Elasticsearch:
+#### Install Elasticsearch:
 ```shell
 sudo apt-get update && sudo apt-get install elasticsearch
 ```
 
-### Check if `elasticsearch` user is created:
+#### Check if `elasticsearch` user is created:
 ```shell
 sudo grep elasticsearch /etc/passwd
 ```
@@ -28,16 +28,16 @@ You should have this output (with different GID/UID):
 elasticsearch:x:122:129::/nonexistent:/bin/false
 ```
 
-### Start `elasticsearch` service: 
+#### Start `elasticsearch` service: 
 ```shell
 sudo service elasticsearch start
 ```
 
-### Check the status of the service and make sure it is `active`:
+#### Check the status of the service and make sure it is `active`:
 ```shell
 sudo service elasticsearch status
 ```
-### Check that elasticsearch installation is well completed:
+#### Check that elasticsearch installation is well completed:
 ```shell
 sudo service elasticsearch start
 ``` 
